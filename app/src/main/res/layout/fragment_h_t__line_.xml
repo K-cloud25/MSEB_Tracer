@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    style="@style/MyViewBackground_Style"
+    tools:context=".Fragments.MultiComponentDataFeeders.HT_Line_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H.T. Line"
+                android:textSize="30sp"
+                style="@style/Custom_Text_Color_Field"
+                android:paddingHorizontal="10dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ht_line_thickness_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                style="@style/MyCustomTextEditInputField"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Thickness Of Wire">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ht_line_thickness_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ht_line_material_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                style="@style/MyCustomTextEditInputField"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Material Type">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ht_line_material_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sendtodatabase_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:text="Send To Database"
+                android:textSize="20sp"
+                android:layout_marginVertical="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

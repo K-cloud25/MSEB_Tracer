@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MSEB_Tracer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="single_component_list">
+        <item>Transformer</item>
+        <item>Feeder</item>
+        <item>FeederPole</item>
+    </string-array>
+
+    <string-array name="multiple_component_list">
+        <item>H.T.Line</item>
+        <item>Transmission Line</item>
+    </string-array>
+</resources>

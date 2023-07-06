@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="5dp"
+    android:background="@color/transparent"
+    android:paddingVertical="5dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_item_view_holder"
+        android:layout_width="match_parent"
+        app:cardElevation="6dp"
+        android:elevation="4dp"
+        android:background="@color/light_blue_slate_color"
+        android:backgroundTint="@color/light_blue_slate_color"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                style="@style/Custom_Text_Color_Field"
+                android:text="Geo-Point" />
+
+            <TextView
+                android:id="@+id/multi_card_single_geo_lat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latitude : "
+                android:textSize="14sp"
+                style="@style/Custom_Text_Color_Field"
+                android:layout_marginHorizontal="5dp"/>
+
+            <TextView
+                android:id="@+id/multi_card_single_geo_long"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Longitude : "
+                android:textSize="14sp"
+                style="@style/Custom_Text_Color_Field"
+                android:layout_marginHorizontal="5dp"/>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MyViewBackground_Style"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.SingleComponentDataFeeders.TransformerFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transformer Data"
+        android:textSize="30sp"
+        style="@style/Custom_Text_Color_Field"
+        android:paddingHorizontal="10dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/transformer_inputvoltage_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        style="@style/MyCustomTextEditInputField"
+        app:startIconContentDescription="Input Voltage"
+        android:hint="Power Rating">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/transformer_inputvoltage_ETV"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            style="@style/MyCustomTextEditInputField"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/transformer_outputvoltage_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        style="@style/MyCustomTextEditInputField"
+        app:startIconContentDescription="Input Voltage"
+        android:hint="Voltage Ratio">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/transformer_outputvoltage_ETV"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            style="@style/MyCustomTextEditInputField"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/transformer_efficiency_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        style="@style/MyCustomTextEditInputField"
+        app:startIconContentDescription="Input Voltage"
+        android:hint="Phase configuration">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/transformer_efficiency_ETV"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            style="@style/MyCustomTextEditInputField"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/transformer_frequency_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        style="@style/MyCustomTextEditInputField"
+        app:startIconContentDescription="Input Voltage"
+        android:hint="Frequency">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/transformer_frequency_ETV"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            style="@style/MyCustomTextEditInputField"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/transformer_insulation_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        style="@style/MyCustomTextEditInputField"
+        app:startIconContentDescription="Input Voltage"
+        android:hint="Insulation Class">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/transformer_insulation_ETV"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            style="@style/MyCustomTextEditInputField"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/transformer_efficiency_rel_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        style="@style/MyCustomTextEditInputField"
+        app:startIconContentDescription="Input Voltage"
+        android:hint="Efficiency">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/transformer_efficiency_rel_ETV"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            style="@style/MyCustomTextEditInputField"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/transformer_cooling_rel_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        style="@style/MyCustomTextEditInputField"
+        app:startIconContentDescription="Input Voltage"
+        android:hint="Cooling System">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/transformer_cooling_rel_ETV"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            style="@style/MyCustomTextEditInputField"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/transformer_noise_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        style="@style/MyCustomTextEditInputField"
+        app:startIconContentDescription="Input Voltage"
+        android:hint="Noise Level">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/transformer_noise_ETV"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            style="@style/MyCustomTextEditInputField"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/transformer_reg_com_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        style="@style/MyCustomTextEditInputField"
+        app:startIconContentDescription="Input Voltage"
+        android:hint="Regulation Compliance">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/transformer_reg_com_ETV"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            style="@style/MyCustomTextEditInputField"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/transformer_lifespan_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        style="@style/MyCustomTextEditInputField"
+        app:startIconContentDescription="Input Voltage"
+        android:hint="LifeSpan">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/transformer_lifespan_ETV"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            style="@style/MyCustomTextEditInputField"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sendtodatabase_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:text="Send To Database"
+        android:textSize="20sp"
+        android:layout_marginVertical="10dp"/>
+
+</LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

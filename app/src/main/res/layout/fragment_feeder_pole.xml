@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MyViewBackground_Style"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.SingleComponentDataFeeders.FeederPoleFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feeder Pole Data"
+                android:textSize="30sp"
+                style="@style/Custom_Text_Color_Field"
+                android:paddingHorizontal="10dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/feederpole_pole_height_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                style="@style/MyCustomTextEditInputField"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Pole Height">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feederpole_pole_height_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/feederpole_material_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                style="@style/MyCustomTextEditInputField"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Pole Material Type">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feederpole_material_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/feederpole_pole_diameter_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyCustomTextEditInputField"
+                android:layout_marginVertical="10dp"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Pole Diameter">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feederpole_pole_diameter_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/feederpole_cross_arm_length_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyCustomTextEditInputField"
+                android:layout_marginVertical="10dp"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Cross Arm Length">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feederpole_cross_arm_length_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/feederpole_cross_arm_type_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyCustomTextEditInputField"
+                android:layout_marginVertical="10dp"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Cross Arm Type">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feederpole_cross_arm_type_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/feederpole_strength_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyCustomTextEditInputField"
+                android:layout_marginVertical="10dp"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Pole Strength">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feederpole_strength_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/feederpole_grounding_sys_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyCustomTextEditInputField"
+                android:layout_marginVertical="10dp"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Grounding System">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feederpole_grounding_sys_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/feederpole_coor_res_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyCustomTextEditInputField"
+                android:layout_marginVertical="10dp"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Corrosion Resistance">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feederpole_coor_res_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/feederpole_regul_comp_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyCustomTextEditInputField"
+                android:layout_marginVertical="10dp"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Regulation Compliance">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feederpole_regul_comp_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/feederpole_lifespan_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MyCustomTextEditInputField"
+                android:layout_marginVertical="10dp"
+                app:startIconContentDescription="Input Voltage"
+                android:hint="Pole LifeSpan">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feederpole_lifespan_ETV"
+                    android:layout_width="match_parent"
+                    android:textSize="18sp"
+                    style="@style/MyCustomTextEditInputField"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sendtodatabase_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:text="Send To Database"
+                android:textSize="20sp"
+                android:layout_marginVertical="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
